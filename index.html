@@ -1,4 +1,4 @@
-f<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />
@@ -12,7 +12,7 @@ f<!DOCTYPE html>
     <header id="top" class="w-full flex flex-col fixed sm:relative pt-scroll bg-white pin-t pin-r pin-l">
         <nav id="site-menu" class="flex flex-col sm:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-white shadow sm:shadow-none nav-sticky border-t-4 border-green-500">
             <div class="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
-                <a href="#" class="no-underline py-1">
+                <a href="#top" class="no-underline py-1">
                     <h1 class="font-bold text-lg tracking-widest">LOGO</h1>
                 </a>
                 <button id="menuBtn" class="hamburger block sm:hidden focus:outline-none" type="button" onclick="navToggle();">
@@ -28,13 +28,72 @@ f<!DOCTYPE html>
         </nav>
     </header>
 
-    <body class="content">
+    <body class="content" id="top">
      
 
         <h1 class="ml-4 text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10" id="home">Les différentes faces du web</h1>
     
         <div class="min-h-screen bg-white">
             
+            <svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg">
+                
+                
+                <line class="network-ark" stroke-linecap="undefined" stroke-linejoin="undefined" y1="20" x1="25" y2="17" x2="45" opacity="undefined" stroke="#000" fill="none"/>
+                
+                <line class="network-ark" stroke-linecap="undefined" stroke-linejoin="undefined" y1="17" x1="45" y2="12" x2="60" opacity="undefined" stroke="#000" fill="none"/>
+
+                <line class="network-ark" stroke-linecap="undefined" stroke-linejoin="undefined" y1="12" x1="60" y2="60" x2="47" opacity="undefined" stroke="#000" fill="none"/>
+
+                <line class="network-ark" stroke-linecap="undefined" stroke-linejoin="undefined" y1="60" x1="47" y2="50" x2="13" opacity="undefined" stroke="#000" fill="none"/>
+
+                <line class="network-ark" stroke-linecap="undefined" stroke-linejoin="undefined" y1="20" x1="25" y2="50" x2="13" opacity="undefined" stroke="#000" fill="none"/>
+
+                <line class="network-ark" stroke-linecap="undefined" stroke-linejoin="undefined" y1="50" x1="13" y2="47" x2="70" opacity="undefined" stroke="#000" fill="none"/>
+
+                <line class="network-ark" stroke-linecap="undefined" stroke-linejoin="undefined" y1="47" x1="70" y2="17" x2="45" opacity="undefined" stroke="#000" fill="none"/>
+
+                <line class="network-ark" stroke-linecap="undefined" stroke-linejoin="undefined" y1="20" x1="25" y2="60" x2="47" opacity="undefined" stroke="#000" fill="none"/>
+
+                <circle 
+                    class="network-node"
+                    cx="25" 
+                    cy="20"
+                    r="3"/>
+            
+                <circle 
+                    class="network-node"
+                    cx="45" 
+                    cy="17"
+                    r="3"/>
+
+
+                <circle 
+                    class="network-node"
+                    cx="60" 
+                    cy="12"
+                    r="3"/>
+
+
+                <circle 
+                    class="network-node"
+                    cx="47" 
+                    cy="60"
+                    r="3"/>
+
+                <circle 
+                    class="network-node"
+                    cx="13" 
+                    cy="50"
+                    r="3"/>
+
+                <circle 
+                    class="network-node"
+                    cx="70" 
+                    cy="47"
+                    r="3"/>
+            
+            </svg>
+
         </div>
         
         <section id="surfaceWeb" class="min-h-screen bg-blue-50 pt-14">
@@ -53,6 +112,47 @@ f<!DOCTYPE html>
             <h1 class="p-4 text-4xl font-extrabold text-gray-900 tracking-tight">
                 Deep web
             </h1>
+
+        <div class="grid grid-rows-3 grid-flow-col gap-8 justify-center">
+
+            <div class="row-start-1.5 row-span-1 max-w-sm">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg my-8 m-20">
+                    <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
+                    <div class="px-6 py-4">
+                      <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                      <p class="text-grey-darker text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                      </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row-start-1 row-span-1">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg my-8 m-20">
+                    <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
+                    <div class="px-6 py-4">
+                      <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                      <p class="text-grey-darker text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                      </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row-start-1 row-span-1">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg my-8 m-20">
+                    <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
+                    <div class="px-6 py-4">
+                      <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                      <p class="text-grey-darker text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                      </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+
         </section>
 
 
@@ -62,6 +162,7 @@ f<!DOCTYPE html>
             </h1>
             <p class="p-4 text-1xl font-extrabold text-gray-500 tracking-tight">
                 Le dark web est le contenu de reseau superposé uniquement accessibles via des protocols spéciaux. Le dark web forme une petite partie du deep web. Les sites du darkweb sont hébergés par des darknets comme Tor.
+
             </p>
             <h1 class="p-4 text-4xl font-extrabold text-green-500 tracking-tight">
                 Le Darkweb, un vaste réseau superposé
@@ -69,6 +170,91 @@ f<!DOCTYPE html>
             <p class="p-4 text-1xl font-extrabold text-gray-500 tracking-tight">
                 Un réseau superposé, aussi nommé réseau overlay est un réseau informatique bâti sur un autre réseau distinct. Les noeuds d'un réseau superposé sont interconnectés par des liens logiques avec le réseau sous-jacent :
             </p>
+            <div class="grid grid-rows-6 gap-4">
+                <div class="col-start-1 col-span-6">
+                    <svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg">
+                        
+                        
+                        <line class="network-ark" stroke-linecap="undefined" stroke-linejoin="undefined" y1="50" x1="10" y2="50" x2="20" opacity="undefined" stroke="#000" fill="none"/>
+                        <line class="network-ark" stroke-linecap="undefined" stroke-linejoin="undefined" y1="50" x1="20" y2="50" x2="30" opacity="undefined" stroke="#000" fill="none"/>
+                        <line class="network-ark" stroke-linecap="undefined" stroke-linejoin="undefined" y1="50" x1="30" y2="50" x2="40" opacity="undefined" stroke="#000" fill="none"/>
+                        <line class="network-ark" stroke-linecap="undefined" stroke-linejoin="undefined" y1="50" x1="10" y2="50" x2="20" opacity="undefined" stroke="#000" fill="none"/>
+
+                        <line class="network-ark" stroke-linecap="undefined" stroke-linejoin="undefined" y1="60" x1="15" y2="60" x2="25" opacity="undefined" stroke="#000" fill="none"/>
+                        <line class="network-ark" stroke-linecap="undefined" stroke-linejoin="undefined" y1="60" x1="25" y2="60" x2="35" opacity="undefined" stroke="#000" fill="none"/>
+
+                        <line class="network-ark" stroke-linecap="undefined" stroke-linejoin="undefined" y1="40" x1="15" y2="40" x2="25" opacity="undefined" stroke="#000" fill="none"/>
+                        <line class="network-ark" stroke-linecap="undefined" stroke-linejoin="undefined" y1="40" x1="25" y2="40" x2="35" opacity="undefined" stroke="#000" fill="none"/>
+                        
+
+                        <circle 
+                            class="network-node"
+                            cx="10" 
+                            cy="50"
+                            r="3"/>
+                    
+                        <circle 
+                            class="network-node"
+                            cx="20" 
+                            cy="50"
+                            r="3"/>
+
+
+                        <circle 
+                            class="network-node"
+                            cx="30" 
+                            cy="50"
+                            r="3"/>
+
+                        <circle 
+                            class="network-node"
+                            cx="40" 
+                            cy="50"
+                            r="3"/>
+
+
+                        <circle 
+                            class="network-node"
+                            cx="15" 
+                            cy="60"
+                            r="3"/>
+
+                        <circle 
+                            class="network-node"
+                            cx="25" 
+                            cy="60"
+                            r="3"/>
+
+                            <circle 
+                            class="network-node"
+                            cx="35" 
+                            cy="60"
+                            r="3"/>
+
+                        <circle 
+                            class="network-node"
+                            cx="15" 
+                            cy="40"
+                            r="3"/>
+
+                        <circle 
+                            class="network-node"
+                            cx="25" 
+                            cy="40"
+                            r="3"/>
+
+                        <circle 
+                            class="network-node"
+                            cx="35" 
+                            cy="40"
+                            r="3"/>
+                    
+                    </svg>
+                </div>
+                <div>
+                    Theo le singe
+                </div>
+            </div>
             <img class="object-contain h-48 w-full" src=https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-981-15-8289-9_43/MediaObjects/498635_1_En_43_Fig1_HTML.png>
             <p class="p-4 text-1xl font-extrabold text-gray-500 tracking-tight">
                 Cette abstraction du réseau sous-jacent est une source d'inefficacité des flux, qui peuvent transiter plusieurs fois par les mêmes liens physiques. D'autre part, chaque couche réseau tend à réserver une partie de la capacité pour assurer la redondance.
@@ -81,11 +267,37 @@ f<!DOCTYPE html>
                 De plus, le navigateur permet d'anonymiser l'origine des connexions TCP, très efficace lors d'échanges sensibles sur des messageries instantannées.
                 Effectivement, le navigateur inclu une connexion VPN gratuite en plus de son ingénieux système de routage en onion.
                 Le routage en oignon pallie certaines carences des systèmes existants (notamment les serveurs mandataires) qui ne suffisent pas à garantir l’anonymat. Le routage en oignon fait rebondir les échanges TCP au sein d’Internet afin de neutraliser les analyses de trafic sur une partie du réseau (notamment les analyses par attaque Man in the middle).
-
+                Il devient alors très compliqué d'identifier les utilisateurs du reseau.
+            </p>
+            <p class="p-4 text-1xl font-extrabold text-gray-500 tracking-tight" >Fonctionnement algorithmique : </p>
+            <ul class="p-4 text-1xl font-extrabold text-gray-500 tracking-tight" >
+                <li> Un utilisateur souhaite acceder à un site quelquonque</li>
+                    <li> Le client Tor choisit aléatoirement parmis les différents réseau</li>
+                        <li> Le premier serveur du circuit identifie l'utilisateur avec son addresse IP</li>
+                            <li> Le second serveur reçoit l'adresse IP et la requête du second serveur</li>
+                                <li> Ainsi de suite avec n serveur, n étant un entier strictement supérieur à 2</li>
+                                    <li> Le serveur final reçoit et traite la requête, les paquets de réponse fonc le chemin inverse</li>
+            </ul>
+            <p class="p-4 text-1xl font-extrabold text-gray-500 tracking-tight" >
+                De plus la communication entre chaque serveur est chiffré avec le principe clé publique/clé privé.
+                Il s'agit du meme protocole pour les connexions https
+            </p>
+            <img class="object-contain" src="https://nsa40.casimages.com/img/2021/03/25/210325061924892908.png" height="1000" width="1000">
+            <h1 class="p-4 text-4xl font-extrabold text-green-500 tracking-tight">
+                GNU Privacy Guard
+            </h1>
+            <p class="p-4 text-1xl font-extrabold text-gray-500 tracking-tight" >
+                GnuPG est un logiciel stable distribué dans tous les systèmes d'exploitation libres, notamment GNU/Linux.
+                Bien que le logiciel GnuPG soit doté d'une interface en ligne de commande, plusieurs applications ou extensions lui fournissent une interface graphique.
+                Grâce à son échange sécurisé, son usage est très courant sur le dark web et permet à de nombreux utilisateurs de converser sur différents sujets controversés l'esprit tranquille.
+                Le processus de communication s'effectue avec de la cryptographie asymétrique et peut se combiner avec le processus de communication de Tor.
+            </p>
+            <p class="p-4 text-1xl font-extrabold text-gray-500 tracking-tight" ></p>
+                Sa robustesse face aux attaques de la NSA a été confirmée dans un article publié en décembre 2014 par Der Spiegel
+                Indéniablement, sa popularité n'a fait que croitre au point d'etre intégré dans les cartes à puces.
             </p>
         </section>
-
-
+        
     </body>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
