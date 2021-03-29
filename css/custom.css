@@ -1,0 +1,58 @@
+
+@media (max-width: 576px) {
+    .content {
+        padding-top: 25px;
+    }
+}
+
+@media (min-width: 577px) {
+    .pt-scroll {
+        padding-top: 25px;
+    }
+}
+
+.nav-sticky {
+    position: fixed!important;
+    min-width: 100%;
+    top: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    transition: all .25s ease-in;
+    z-index: 1;
+}
+
+.network-node {
+    transition: all 1s;
+    transition-timing-function: cubic-bezier(.87, 1, .6, .19);
+    fill: grey;
+    stroke: black;
+}
+
+.network-node_up {
+    transition: all 1s;
+    transition-timing-function: cubic-bezier(.87, 1, .6, .19);
+    fill: green;
+    stroke: black;
+}
+
+.centrer {
+    text-align: center;
+}
+  
+
+.network-node:hover{
+    fill: red;
+    transform: scale(1.01);
+}
+
+.network-node_up:hover{
+    fill: red;
+    transform: scale(1.01);
+}
+
+.network-ark{
+    transition: all 1s;
+}
+
+.network-ark:hover{
+    fill: darkblue;
+}
